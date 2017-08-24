@@ -4,4 +4,4 @@
 <br>
 - <a href="https://github.com/oliverloye/studypointExercises/tree/master/JPA_MappingExercise-3">JPA_MappingExercise-3</a>
 <br>
-- exam-preparation_JPA1
+- <a href="https://github.com/oliverloye/studypointExercises/tree/master/exam_preparation_JPA1">exam-preparation_JPA1</a>
