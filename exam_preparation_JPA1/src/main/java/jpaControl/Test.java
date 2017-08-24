@@ -51,6 +51,11 @@ public class Test {
         
         
         System.out.println(fc.findCustomer(1l).toString());
+        System.out.println("Customer name of order: " + fo.findOrder(1l).getCustomer().getName());
+        System.out.println("Item name: " + fo.findOrder(1l).getOrderLines().get(0).getItemType().getName());
+        System.out.println("Item description: " + fo.findOrder(1l).getOrderLines().get(0).getItemType().getDescription());
+        System.out.println("Item price: " + fo.findOrder(1l).getOrderLines().get(0).getItemType().getPrice() + " kr.");
+        System.out.println("Quantity: " + fo.findOrder(1l).getOrderLines().get(0).getQuantity());
         
     }
     
