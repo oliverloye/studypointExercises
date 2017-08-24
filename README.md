@@ -7,4 +7,4 @@
 - Opgave 1: <a href="https://github.com/oliverloye/studypointExercises/tree/master/exam_preparation_JPA1">exam-preparation_JPA1</a>
 <br>
 <br>
-- Opgave 2: <a href="https://github.com/oliverloye/studypointExercises/tree/master/prep_JPA3">exam-preparation_JPA3</a>
+- Opgave 3: <a href="https://github.com/oliverloye/studypointExercises/tree/master/prep_JPA3">exam-preparation_JPA3</a>
