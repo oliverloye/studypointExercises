@@ -13,7 +13,7 @@
 <br>
 <h2>Week 2</h2>
 <h3>Opgaver</h3>
-- Day 1-2: <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1_Array.js">TheJS_Array</a> , <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1_1.js">JS Funtions del 1<a/> , <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1Filter.js">Callbacks (with map, filter and forEach)<a/>
+- Day 1-2: <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1_Array.js">TheJS_Array</a> , <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1_1.js">JS Functions<a/> , <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1Filter.js">Callbacks (with map, filter and forEach)<a/>
 <br>
 <br>
-- Day 2-3: 
+- Day 2-3: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-2_Javascript/JsDay2">Dom Manipulation and Events</a>
