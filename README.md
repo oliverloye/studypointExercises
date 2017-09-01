@@ -14,3 +14,9 @@
 <h2>Week 2</h2>
 <h3>Opgaver</h3>
 - The Javascript Array: <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1_Array.js">TheJS_Array</a>
+<br>
+<br>
+- Javascript Functions, del 1: <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1_1.js">JS Funtions del 1<a/>
+<br>
+<br>
+- Javascript Functions, del 2: <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1Filter.js">Callbacks (with map, filter and forEach)<a/>
