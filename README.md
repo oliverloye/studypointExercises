@@ -1,5 +1,6 @@
 # studypointExercises
 
+<h2>Week 1</h2>
 <h3>Opgaver</h3>
 - Mapping opgave: <a href="https://github.com/oliverloye/studypointExercises/tree/master/JPA_MappingExercise-3">JPA_MappingExercise-3</a> -> <a href="https://github.com/oliverloye/studypointExercises/blob/master/Svar%20til%20MappingEx3.pdf"> Svar til Mapping-opgave</a>
 <br>
@@ -8,3 +9,8 @@
 <br>
 <br>
 - Opgave 3: <a href="https://github.com/oliverloye/studypointExercises/tree/master/prep_JPA3">exam-preparation_JPA3</a>
+<br>
+<br>
+<h2>Week 2</h2>
+<h3>Opgaver</h3>
+- JavaScript Functions opgaver: 
