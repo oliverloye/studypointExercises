@@ -13,4 +13,4 @@
 <br>
 <h2>Week 2</h2>
 <h3>Opgaver</h3>
-- JavaScript Functions opgaver: 
+- The Javascript Array: <a href="https://github.com/oliverloye/studypointExercises/blob/master/Week-2_Javascript/jsDay1_Array.js">TheJS_Array</a>
