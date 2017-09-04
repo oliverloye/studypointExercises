@@ -20,7 +20,7 @@
 <br>
 <br>
 <h2>Week 3<h2>
-<h3>Opgavee<h3>
+<h3>Opgavee</h3>
 - Exercise - REST Quotes: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Quotes>Exercise-REST_Quotes</a>
 <br>
 <br>
