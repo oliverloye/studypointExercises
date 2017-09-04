@@ -19,7 +19,7 @@
 - Day 2-3: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-2_Javascript/JsDay2">Dom Manipulation and Events</a>
 <br>
 <br>
-<h2>Week 3<h2>
+<h2>Week 3</h2>
 <h3>Opgavee</h3>
 - Exercise - REST Quotes: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Quotes>Exercise-REST_Quotes</a>
 <br>
