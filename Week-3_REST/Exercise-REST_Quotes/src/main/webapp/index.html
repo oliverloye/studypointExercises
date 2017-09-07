@@ -5,6 +5,36 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h3>Quote of the day</h3>
+        <div id="app"></div>
+        <br>
+        <button onclick="randomQuote()">New quote!</button>
+        <script>
+            var app = document.getElementById("app");
+            app.innerHTML = "blabalblaab";
+            var url = "http://localhost:8084/Exercise-REST_Quotes/api/quote/random";
+            var conf = {method: 'get'};
+            var promise = fetch(url, conf);
+            promise.then(function(response){
+                return response.text();
+            }).then(function(text){
+                console.log(text);
+                app.innerHTML = text;
+            });
+            
+            function randomQuote() {
+                var app = document.getElementById("app");
+                app.innerHTML = "blabalblaab";
+                var url = "http://localhost:8084/Exercise-REST_Quotes/api/quote/random";
+                var conf = {method: 'get'};
+                var promise = fetch(url, conf);
+                promise.then(function(response){
+                    return response.text();
+                }).then(function(text){
+                    console.log(text);
+                    app.innerHTML = text;
+                });
+            }
+        </script>
     </body>
 </html>

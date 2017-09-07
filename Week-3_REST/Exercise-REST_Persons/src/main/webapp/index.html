@@ -3,8 +3,22 @@
     <head>
         <title>Start Page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <div id="app"></div>
+        <script>
+            var app = document.getElementById("app");
+            app.innerHTML = "blabalblaab";
+            var url = "http://localhost:8084/Exercise-REST_Persons/api/person/all";
+            var conf = {method: 'get'};
+            var promise = fetch(url, conf);
+            promise.then(function(response){
+                return response.text();
+            }).then(function(text){
+                console.log(text);
+                app.innerHTML = text;
+            });
+        </script>
     </body>
 </html>

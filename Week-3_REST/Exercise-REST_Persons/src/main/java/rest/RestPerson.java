@@ -82,15 +82,13 @@ public class RestPerson {
     @PUT
     @Path("{id}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public String putJson(String content, @PathParam("id") int id, @DefaultValue("Worker") @QueryParam("job") String job) {
+    public String putJson(String content, @PathParam("id") int id) {
         System.out.println(content);
         System.out.println(id);
-        System.out.println(job);
 
         System.out.println(context.getQueryParameters().toString());
-        System.out.println(context.getQueryParameters().get("job"));
 
-
+        
         return "{\"MESSAGE\":\"PUT\"}";
     }
     
