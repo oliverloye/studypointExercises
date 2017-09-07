@@ -5,7 +5,7 @@
  */
 package facade;
 
-import entity.Person;
+import entity.Personn;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -27,7 +27,7 @@ public class FacadePerson implements IPersonFacade {
     }
 
     @Override
-    public Person addPerson(Person p) {
+    public Personn addPerson(Personn p) {
         EntityManager em = emf.createEntityManager();
        
         try {
@@ -42,12 +42,12 @@ public class FacadePerson implements IPersonFacade {
     }
 
     @Override
-    public Person deletePerson(int id) {
+    public Personn deletePerson(Long id) {
         EntityManager em = emf.createEntityManager();
 
         try {
             em.getTransaction().begin();
-            Person person = em.find(Person.class, id); 
+            Personn person = em.find(Personn.class, id); 
             if( person != null) {
                 em.remove(person);
             }
@@ -60,12 +60,12 @@ public class FacadePerson implements IPersonFacade {
     }
 
     @Override
-    public Person getPerson(int id) {
+    public Personn getPerson(Long id) {
         EntityManager em = emf.createEntityManager();
 
         try {
             em.getTransaction().begin();
-            Person pers = em.find(Person.class, id);
+            Personn pers = em.find(Personn.class, id);
             em.getTransaction().commit();
             return pers;
         }
@@ -75,14 +75,14 @@ public class FacadePerson implements IPersonFacade {
     }
 
     @Override
-    public List<Person> getPersons() {
+    public List<Personn> getPersons() {
         EntityManager em = emf.createEntityManager();
 
-        List<Person> persons = null;
+        List<Personn> persons = null;
         
         try {
             em.getTransaction().begin();
-            persons = em.createQuery("Select p from Person p").getResultList();
+            persons = em.createQuery("Select p from Personn p").getResultList();
             em.getTransaction().commit();
             return persons;
         }
@@ -92,12 +92,12 @@ public class FacadePerson implements IPersonFacade {
     }
 
     @Override
-    public Person editPerson(Person p) {
+    public Personn editPerson(Personn p) {
         EntityManager em = emf.createEntityManager();
 
         try {
             em.getTransaction().begin();
-            Person pers = em.find(Person.class, p.getId());
+            Personn pers = em.find(Personn.class, p.getId());
             if( pers != null) {
                 em.merge(p);
             }
