@@ -18,4 +18,4 @@
 <h3>Opgaver</h3>
 - Quote exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Quotes">Exercise-REST_Quotes</a>
 <br>
-- Person exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Persons">Exercise-REST_Persons</a>
+- Person exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Persons">Exercise-REST_Persons</a> -> <a href="http://207.154.194.224/persons/">Digital Ocean Deployment</a>
