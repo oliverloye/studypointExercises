@@ -18,9 +18,9 @@
   <br>
 <h2>Week 3 - REST</h2>
 <h3>Opgaver:</h3>
-- Quote exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Quotes">Exercise-REST_Quotes</a>
+- Quote exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Quotes">Exercise-REST_Quotes</a> -> <a href="http://207.154.194.224/quote/">Digital Ocean Quotes Deployment</a>(fungerer ikke korrekt på digital ocean, men i netbeans)
 <br>
-- Person exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Persons">Exercise-REST_Persons</a> -> <a href="http://207.154.194.224/persons/">Digital Ocean Deployment</a>
+- Person exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Persons">Exercise-REST_Persons</a> -> <a href="http://207.154.194.224/persons/">Digital Ocean Persons Deployment</a>
 <br>
 - REST Assured exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/resassuredEx1-master">Exercise-REST_RestAssured_GettingStarted</a>
   <br>
