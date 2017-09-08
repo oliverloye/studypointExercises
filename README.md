@@ -23,3 +23,5 @@
 - Person exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/Exercise-REST_Persons">Exercise-REST_Persons</a> -> <a href="http://207.154.194.224/persons/">Digital Ocean Deployment</a>
 <br>
 - REST Assured exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/resassuredEx1-master">Exercise-REST_RestAssured_GettingStarted</a>
+  <br>
+- REST API exercise: <a href="https://github.com/oliverloye/studypointExercises/tree/master/Week-3_REST/exam-preparation_REST_API">exam-preparation_REST_API</a>
