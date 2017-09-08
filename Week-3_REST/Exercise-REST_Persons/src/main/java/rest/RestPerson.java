@@ -6,7 +6,6 @@
 package rest;
 
 import com.google.gson.Gson;
-import entity.Person;
 import entity.Personn;
 import facade.FacadePerson;
 import javax.persistence.Persistence;
