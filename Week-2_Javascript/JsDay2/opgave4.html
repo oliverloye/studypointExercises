@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script>
+            window.onload = function() {
+                
+                // document.getElementById("add").onclick = function(event) {
+                //     var node = document.createElement("li");
+                //     var text = document("userinput").value;
+                //     var textNode = document.createTextNode(text);
+                //     node.appendChild(textNode);
+                //     document.getElementById("list").appendChild(node);
+                //     event.preventDefault();
+                // }
+
+
+
+
+
+                document.getElementById("add").onclick = function(event) {
+                    
+
+                    var text = document.getElementById("userinput").value;
+                    console.log(text);
+
+                    var li = "<li>" + text + "</li>";
+
+                    document.getElementById("list").appendChild(li);
+                    event.preventDefault();
+
+                }
+            }
+        </script>
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <ul id="list">
+                <li>test1</li>
+            </ul>
+            <br>
+            <input type="text" id="userinput" placeholder="Enter name here...">
+            <input id="add" type="submit" value="Submit">
+        </form>
+    </body>
+</html>
