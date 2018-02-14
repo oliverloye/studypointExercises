@@ -4,17 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="jsDay2.js"></script>
+        <script src="jsDay2.js">
+            document.onload = standardColor();
+        </script>
         <title>Document</title>
     </head>
     <body>
+        <button id="btn2" onclick="standardColor()" type="button">Click here!<br>(This action should happen on page load...)</button>
+        <br>
         <h1>This is header1</h1>
         <div id="div1">Hello JavaScript</div>
         <div id="div2">This is the div 2</div>
         <div id="div3">This is the div 3</div>
 
         <button id="btn1" onclick="divColor()" type="button">Click Me!</button>
-
+        
 
 
         
